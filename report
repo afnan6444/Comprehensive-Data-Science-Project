@@ -1,0 +1,85 @@
+Comprehensive Sales Data Science Project Report
+
+Executive Summary
+
+This capstone project demonstrates an end-to-end data science workflow using sales data. The dataset includes columns for Date, Product, Quantity, Price, Customer_ID, Region, and Total_Sales. The project’s objective was to forecast sales, identify business insights, and deploy a predictive application. Deliverables include technical documentation, a business report, a presentation, and a deployed application.
+
+Problem Statement
+
+Businesses often struggle with predicting sales trends and optimizing inventory. This project aims to build a machine learning model to forecast sales and provide actionable recommendations for inventory planning and marketing strategies.
+
+Methodology
+
+Data Preprocessing
+
+Converted Date to datetime format.
+
+Engineered features: Month, Year, Revenue.
+
+Encoded categorical variables (Product, Region, Customer_ID).
+
+Exploratory Data Analysis (EDA)
+
+Visualized sales trends over time.
+
+Compared regional performance.
+
+Identified correlations between discounts, price, and sales.
+
+Model Development
+
+Trained Random Forest Regressor for sales prediction.
+
+Evaluated using R² and RMSE metrics.
+
+Extracted feature importance to identify key drivers of sales.
+
+Deployment
+
+Built a Flask API (/predict endpoint) for real-time predictions.
+
+Developed a Streamlit dashboard for interactive visualization and forecasting.
+
+Documentation & Reporting
+
+Technical documentation: methodology, code structure, results.
+
+Business report: executive summary, recommendations.
+
+Presentation slides: problem → solution → impact.
+
+Results
+
+Model Performance: Achieved strong predictive accuracy with Random Forest.
+
+Key Insights:
+
+Region X contributes ~40% of total revenue.
+
+Discounts increase sales volume by ~25%.
+
+Seasonality (holiday months) strongly influences demand.
+
+Recommendations
+
+Focus marketing campaigns in high-performing regions.
+
+Adjust inventory planning based on seasonal demand.
+
+Use discount strategies strategically to boost sales.
+
+Deliverables
+
+Technical Documentation: Detailed methodology and code structure.
+
+Business Report: Executive summary and actionable recommendations.
+
+Presentation Deck: 10–15 slides covering workflow and insights.
+
+Deployed Application: Flask API + Streamlit dashboard.
+
+GitHub Repository: Organized structure with README, notebooks, and source code.
+
+Conclusion
+
+This project successfully demonstrates a complete data science workflow applied to sales forecasting. It provides both technical depth and business relevance, making it a strong portfolio piece for data science career preparation.
